@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <title>Box Wars</title>
+    <link rel='stylesheet' type="text/css" href="style.css">
+		<script src="javascript/jquery-3.3.1.min.js"></script>
+  </head>
+    
+  <body>
+		
+		<div id="play-area">
+			
+		<div id="start">
+				<h1>Box Wars</h1>
+				<h4>By Pixelz</h4>
+			
+				<input id="name" value="Enter Name"> 	<br>
+				<p>Max of 12 characters</p>
+				<button id="start-btn">Start</button>
+		</div>
+			
+			<div id="player-side">
+				
+				<p class="player-name">Player</p>
+				
+				<div class="health-bar">
+					<div class="damage">
+						<div class="health"></div>
+						<p class="hp-number">100</p>
+					</div>
+					<p class="status">Poisoned</p>
+				</div>
+			
+				<div class="box">
+					<img class="heal-particle" src="images/heal-particle.png">
+					<img class="chance-mark" src="images/chance.png">
+				</div>
+			</div>
+			
+			<div id="comp-side">
+				<p class="player-name">Computer</p>
+				
+				<div class="health-bar">
+					<div class="damage">
+						<div class="health"></div>
+						<p class="hp-number">100</p>
+					</div>
+					<p class="status">Poisoned</p>
+				</div>
+				
+				<div class="box">
+					<img class="heal-particle" src="images/heal-particle.png">
+					<img class="chance-mark" src="images/chance.png">
+				</div>
+			</div>
+			
+			<p id="turn-display">Player's Turn</p>
+			
+			<div id="log-panel">
+				<p></p>
+			</div>
+			
+				<table id="player-controls">
+					
+					<tr>
+						<td>Attack</td>
+						<td>Heal</td>
+					</tr>
+						
+					<tr>
+						<td>Chance</td>
+						<td>Train</td>
+					</tr>
+					
+				</table>
+			
+			<div id="stat-display">
+			</div>
+			
+			
+		</div>
+		
+		<script src="javascript/misc.js"></script>
+		<script src="javascript/panelControl.js"></script>
+		<script src="javascript/startManager.js"></script>
+		<script src="javascript/main.js"></script>
+		
+  </body>
+    
+</html>

@@ -1,0 +1,179 @@
+html {
+	font-family: "Arial";
+}
+
+body {
+	background-color: lightcyan;
+	text-align: center;
+}
+
+#play-area {
+	width: 1100px;
+	height: 550px;
+	margin: 0 auto;
+	background-color: beige;
+}
+
+#start {
+	width: 1100px;
+	height: 550px;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 10;
+	background-color: beige;
+}
+
+#start-contents {
+	position: absolute;
+	z-index: 10;
+}
+
+#comp-side {
+	float: right;
+	position: relative;
+	right: 50px;
+}
+
+.player-name {
+	min-width: 100px;
+	max-width: 125px;
+	margin: 20px auto;
+	position: relative;
+/*	left: 125px;*/
+	background-color: lightgray;
+	font-weight: bold;
+	text-align: center;
+}
+
+.health-bar {
+	width: 350px;
+	height: 25px;
+	padding: 3px;
+	background-color: ghostwhite;
+}
+
+.health {
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	background-color: limegreen;
+}
+
+.hp-number {
+	position: relative;
+	bottom: 37.5px;
+	right: 150px;
+	font-weight: bold;
+	color: white;
+}
+
+.damage {
+	width: 100%;
+	height: inherit;
+	background-color: red;
+	float: right;
+}
+
+.status {
+	font-size: 16px;
+	font-weight: bold;
+	color: darkgreen;
+	position: relative;
+	right: 125px;
+	display: none;
+}
+
+.box {
+	background-color: yellow;
+	position: relative;
+	left: 140px;
+	top: 125px;
+	width: 75px;
+	height: 75px;
+}
+
+.heal-particle {
+	position: relative;
+	right: 40px;
+	bottom: 40px;
+	width: 150px;
+	display: none;
+}
+
+.chance-mark {
+	position: relative;
+	bottom: 85px;
+	width: 50px;
+	display: none;
+}
+
+#player-side {
+	float: left;
+	position: relative;
+	left: 50px;
+}
+
+#stat-display {
+	width: 140px;
+	height: 175px;
+	margin: 0 auto;
+	padding: 5px;
+	padding-top: 15px;
+	background-color: blanchedalmond;
+	font-weight: bold;
+	position: relative;
+	bottom: 175px;
+	display: none;
+	z-index: 7;
+}
+
+#turn-display {
+	font-size: 20px;
+	font-weight: bolder;
+	position: relative;
+	top: 325px;
+}
+
+#log-panel {
+	width: 775px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 6px;
+	text-align: left;
+	background-color: antiquewhite;
+	position: relative;
+	top: 327.5px;
+	display: none;
+	z-index: 5;
+}
+
+#log-panel p {
+	font-size: 18px;
+	font-weight: 600;
+	color: cornflowerblue;
+	position: relative;
+	right: 185px;
+	bottom: 10px;
+}
+
+#player-controls {
+	width: 800px;
+	height: 125px;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+	background-color: lightblue;
+	position: relative;
+	top: 200px;
+}
+
+#player-controls td {
+	width: 50%;
+	background-color: antiquewhite;
+	font-weight: bold;
+}
+
+#player-controls td:hover {
+	background-color: burlywood;
+}
+
